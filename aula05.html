@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logica de Programação</title>
+</head>
+<body>
+    <h1>Lógica de Programação</h1>
+
+    <script>
+        var jogador1 = parseInt(prompt("Vez do jogador 1 digitar um número:"))
+        var jogador2 = parseInt(prompt("Vez do jogador 2 digitar um número:"))
+        if(jogador1 === jogador2){
+            alert(`Jogador 1: ${jogador1}\nJogador 2: ${jogador2}\nEmpate`)
+        }
+        else{
+            if(jogador1 > jogador2){
+                alert(`Jogador 1: ${jogador1}\nJogador 2: ${jogador2}\nJogador 1 Ganhou!`)
+            }
+            else{
+                alert(`Jogador 1: ${jogador1}\nJogador 2: ${jogador2}\nJogador 2 Ganhou!`)
+            }
+        }
+      
+    </script>
+</body>
+</html>
